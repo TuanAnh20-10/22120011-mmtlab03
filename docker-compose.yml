@@ -1,0 +1,9 @@
+services:
+  web-server:
+    build: .
+    image: tuananh2010/my-web:v1
+    container_name: 22120011-web
+    ports:
+      - "8080:80"
+    restart: always
+
